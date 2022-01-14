@@ -9,7 +9,7 @@ export default function App() {
     setUsers((prevUsers) => {
       return [
         ...prevUsers,
-        { name: newUsername, age: newAge, id: Math.random().toString() },
+        { name: newAge, age: newUsername, id: Math.random().toString() },
       ];
     });
   };
